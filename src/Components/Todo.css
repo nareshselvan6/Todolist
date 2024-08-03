@@ -1,0 +1,146 @@
+.total_content {
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(
+    90deg,
+    rgba(124, 0, 254, 1) 0%,
+    rgba(223, 232, 7, 1) 50%,
+    rgba(124, 0, 254, 1) 100%
+  );
+  height: 641px;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b3b3b3;
+  border-radius: 12px;
+  width: 500px;
+  padding: 10px;
+  height: 600px;
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  border: 2px solid #f9e400;
+  width: 100%;
+  background-color: #f9e400;
+  color: #7c00fe;
+}
+
+.titleholder {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-times-circle{
+    font-size: 25px;
+
+}
+
+.fa-times-circle:hover{
+    size: 15px;
+    color: red;
+}
+
+.inputbx {
+  height: 40px;
+  border: 1px solid #b3b3b3;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.mytodos_title {
+  display: flex;
+  justify-content: center;
+}
+
+.alltodos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #b3b3b3;
+  border-radius: 15px;
+  overflow-y: scroll;
+  height: 350px;
+  padding: 10px;
+}
+
+.todos {
+  border: 1px solid;
+  border-radius: 15px;
+  width: 80%;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #12cbf7;
+}
+
+.Ed-Dt_btn {
+  display: flex;
+  gap: 15px;
+}
+
+.ed_dt {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.edit_btn {
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
+.delete_btn {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .todolist{
+    width: 300px;
+    max-height: 800px;
+    overflow-y: auto;
+  }
+
+  .alltodos{
+    height: 270px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 360px) {
+.todolist{
+  width: 200px;
+}
+.Ed-Dt_btn{
+  display: flex;
+  gap: 1px;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+}
